@@ -2,96 +2,157 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Louis Grenioux
     - name: Languages
-      value: English, German
+      value: French, English, Spanish
+    - name: Contact
+      value: <span style="font-family:'Lucida Console', monospace">louis.grenioux at polytechnique dot edu</span>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Deep Learning
+      institution: CMAP, École Polytechnique, Palaiseau, France
+      year: 2022-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://scholar.google.fr/citations?user=_XE1LvQAAAAJ">Éric Moulines</a>
+        - Interactions and opportunities at the crossroads of deep probabilistic modelling and statistical inference through Markov Chains Monte Carlo
+        - Created new algorithms mixing normalizing ﬂows and energy-based models
+        - title: Papers
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - 1 ICML paper
+            - 1 ICML workshop paper
+    - title: MSc. in Data Science
+      institution: École Polytechnique (IP Paris), Palaiseau, France
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Master Year 2 Data Science of Institut Polytechnique de Paris
+        - Deep Learning, Reinforcement Learning, Computer Vision, Natural Langage Processing, Generative Models, MCMC, Optimal Transport, Optimization
+    - title: MSc. in Statistics and Computer Science
+      institution: Télécom SudParis, Palaiseau/Évry, France
+      year: 2019 - 2022
+      description:
+        - Grande école engineering master
+        - Valedictorian of the promotion TSP2022
+        - Statistics, Data Analysis, Data Mining, Bayesian Inference, Stochastic Processes
+        - Java, C, Unix, Web Fronted/Backend, SQL
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research assistant
+      institution: CMAP, École Polytechnique, Palaiseau, France
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://sylvainlc.github.io/">Sylvain Le Corff</a>
+        - Worked on Markov Chain Monte Carlo algorithms enhanced with Deep Learning
+        - Developed new algorithms for energy-based models estimation using normalizing flows
+    - title: Full Stack Data Scientist
+      institution: Freelance
+      year: 2021 - 2023
+      description:
+          - Developed web platform to use AI tools
+          - Scaled proof of concept for production usage
+    - title: Research Engineer Intern
+      institution: Linagora, Paris, France
+      year: 2020
+      description:
+        - Created AI tools for legal audits automation
+        - Developed a data pipeline from scratch (data engineering, modeling, data visualization, model evaluation)
+        - Matching the state of the art performance
+    - title: Software Engineer (Part-time)
+      institution: YU Televentures, Gurgaon, India
+      year: 2014 - 2015
+      description:
+        - Developed the Android 6.0 production OS
+        - Developed open-source tools for the community
+
+- title: Deep Learning competitions
+  type: time_table
+  contents:
+      - title: Hi!ckathon March 2022 - Team Hi!Gency
+        year: 2022
+        description:
+          - 2nd edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
+          - Building AI for climate using computer vision
+          - <i class="fa fa-trophy"></i> 1st position on innovation
+          - <i class="fa-solid fa-medal"></i> 2nd position on business opportunity
+          - <i class="fa-solid fa-medal"></i> 1st position on scientific approach
+      - title: Generative Modelling for Financial Losses
+        year: 2022
+        description:
+          - AI competition aiming at improving ﬁnancial stress test methods with deep learning
+          - Organised by BNP Paribas and École Polytechnique
+          - Generative Adversarial Networks
+          - <i class="fa fa-trophy"></i> 1st position out of 60 teams
+      - title: "AI4IA : Artificial Intelligence for Industrial Application"
+        year: 2021
+        description:
+          - The challenge AI4IA was organized by SKF and hosted by Agorize
+          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/https://github.com/h2o64/ai4ia_2021">Code</a>
+      - title: Hi!ckathon March 2021 - Team CorAI
+        year: 2021
+        description:
+          - 1st edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
+          - Building AI for energy efficiency using reinforcement learning
+          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/hickathon_2021">Code</a>
+      - title: Cassiopée 2021 - AI towards Trading
+        year: 2020 - 2021
+        description:
+          - Project leader
+          - During the Cassiopée project, Télécom SudParis' students solve on real-world projects supervised by professors and domain-specific professionals
+          - Developed an unique real-time trading bot without neural networks using sequential monte-carlo
+          - <i class="fa fa-trophy"></i> 1st position out of 88 teams
+          - <i class="fa-brands fa-github"></i> <a href="https://github.com/egrillot/Exact-Hidden-Markov-Models">Code</a>
+
+- title: Side deep learning projects
+  type: time_table
+  contents:
+    - title: AutoJudge
+      year: 2022
+      description:
+          - Machine learning model to predicting the outcome of a Supreme Court's judgment
+          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/AutoJudge">Code</a>
+    - title: ArXiv Graphs
+      year: 2022
+      description:
+          - Visualizing arXiv authors with graphs
+          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/arxiv_graphs">Code</a>
+
+- title: Android open-source projects
+  type: time_table
+  contents:
+    - title: Xiaomi SDM439
+      year: 2019 - 2021
+      description:
+        - Code for open-source development of the Xiaomi products using the SDM439 chipset (Xiaomi Redmi 8, Xiaomi Redmi 8A, Xiaomi Redmi 8A Pro, Xiaomi Redmi 8A Dual, Xiaomi Redmi 7, Xiaomi Redmi 7A)
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/Xiaomi-SDM439">Code</a>
+    - title: Tinno MSM8937
+      year: 2016 - 2021
+      description:
+        - Reference code for open-source development on Tinno's ODM MSM8937 devices
+        - title: Devices
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - "YU : Yureka Black (garlic)"
+            - "Wiko : Wim Lite (wimlite)"
+            - "Micromax : HS2 (hs2) / HS3 (hs3)"
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/Xiaomi-SDM439">Code</a>
+    - title: AOSParadox
+      year: 2015 - 2017
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - First CAF-based ROM directly mirrored on CodeAurora
+        - Very sucessful project
+        - Winner of the YU-AOSP-M challenge on 3 devices out of 3
+        - title: People
+          contents:
+            - <a href="https://github.com/h2o64">Louis Popi</a> as core developer
+            - <a href="https://github.com/rudij7">Rutash Joshipura</a> as main developer and co-founder
+            - <a href="https://github.com/YordiDR">Yordi De Rijcke</a> as bacon tester and infrastructure manager
+            - <a href="https://github.com/loveboylion">Lionel Colaso</a> as tomato/onyx tester and YU manager
+            - <a href="https://github.com/edisile">Eduard M</a> as graphic designer
+            - <a href="https://github.com/Thecrazyskull">Anas Karbila</a> as main developer
+        - title: Supported devices
+          contents:
+            - "OnePlus : OnePlus One (bacon), OnePlus X (onyx)"
+            - "YU: Yureka (tomato), Yureka Plus (tomato), Yureka S (onion), Yureka Black (garlic), Yuphoria (lettuce), Yunique (jalebi)"
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/AOSParadox">Code</a>
