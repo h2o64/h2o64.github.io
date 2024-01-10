@@ -8,13 +8,14 @@ profile:
   image: me.jpg
   image_circular: false # crops the image to make it circular
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: true # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 **About** I'm a PhD student at [Centre de Mathématiques Appliquées](https://portail.polytechnique.edu/cmap/fr) (CMAP) at [École polytechnique](https://www.polytechnique.edu/) with [Marylou Gabrié](https://marylou-gabrie.github.io/) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ). I am a gratuated engineer from [Télécom SudParis
 ](https://www.telecom-sudparis.eu/). My reasearch is generously supported by the [Hi! Paris research center](https://www.hi-paris.fr/).
 
 **Research interests** Generative Models, Energy Based Models, Flow Matching, Unsupervised Learning, Markov Chain Monte Carlo
+

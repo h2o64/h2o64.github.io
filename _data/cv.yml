@@ -51,8 +51,8 @@
       institution: Freelance
       year: 2021 - 2023
       description:
-          - Developed web platform to use AI tools
-          - Scaled proof of concept for production usage
+        - Developed web platform to use AI tools
+        - Scaled proof of concept for production usage
     - title: Research Engineer Intern
       institution: Linagora, Paris, France
       year: 2020
@@ -70,40 +70,40 @@
 - title: Deep Learning competitions
   type: time_table
   contents:
-      - title: Hi!ckathon March 2022 - Team Hi!Gency
-        year: 2022
-        description:
-          - 2nd edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
-          - Building AI for climate using computer vision
-          - <i class="fa fa-trophy"></i> 1st position on innovation
-          - <i class="fa-solid fa-medal"></i> 2nd position on business opportunity
-          - <i class="fa-solid fa-medal"></i> 1st position on scientific approach
-      - title: Generative Modelling for Financial Losses
-        year: 2022
-        description:
-          - AI competition aiming at improving ﬁnancial stress test methods with deep learning
-          - Organised by BNP Paribas and École Polytechnique
-          - Generative Adversarial Networks
-          - <i class="fa fa-trophy"></i> 1st position out of 60 teams
-      - title: "AI4IA : Artificial Intelligence for Industrial Application"
-        year: 2021
-        description:
-          - The challenge AI4IA was organized by SKF and hosted by Agorize
-          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/https://github.com/h2o64/ai4ia_2021">Code</a>
-      - title: Hi!ckathon March 2021 - Team CorAI
-        year: 2021
-        description:
-          - 1st edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
-          - Building AI for energy efficiency using reinforcement learning
-          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/hickathon_2021">Code</a>
-      - title: Cassiopée 2021 - AI towards Trading
-        year: 2020 - 2021
-        description:
-          - Project leader
-          - During the Cassiopée project, Télécom SudParis' students solve on real-world projects supervised by professors and domain-specific professionals
-          - Developed an unique real-time trading bot without neural networks using sequential monte-carlo
-          - <i class="fa fa-trophy"></i> 1st position out of 88 teams
-          - <i class="fa-brands fa-github"></i> <a href="https://github.com/egrillot/Exact-Hidden-Markov-Models">Code</a>
+    - title: Hi!ckathon March 2022 - Team Hi!Gency
+      year: 2022
+      description:
+        - 2nd edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
+        - Building AI for climate using computer vision
+        - <i class="fa fa-trophy"></i> 1st position on innovation
+        - <i class="fa-solid fa-medal"></i> 2nd position on business opportunity
+        - <i class="fa-solid fa-medal"></i> 1st position on scientific approach
+    - title: Generative Modelling for Financial Losses
+      year: 2022
+      description:
+        - AI competition aiming at improving ﬁnancial stress test methods with deep learning
+        - Organised by BNP Paribas and École Polytechnique
+        - Generative Adversarial Networks
+        - <i class="fa fa-trophy"></i> 1st position out of 60 teams
+    - title: "AI4IA : Artificial Intelligence for Industrial Application"
+      year: 2021
+      description:
+        - The challenge AI4IA was organized by SKF and hosted by Agorize
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/https://github.com/h2o64/ai4ia_2021">Code</a>
+    - title: Hi!ckathon March 2021 - Team CorAI
+      year: 2021
+      description:
+        - 1st edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
+        - Building AI for energy efficiency using reinforcement learning
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/hickathon_2021">Code</a>
+    - title: Cassiopée 2021 - AI towards Trading
+      year: 2020 - 2021
+      description:
+        - Project leader
+        - During the Cassiopée project, Télécom SudParis' students solve on real-world projects supervised by professors and domain-specific professionals
+        - Developed an unique real-time trading bot without neural networks using sequential monte-carlo
+        - <i class="fa fa-trophy"></i> 1st position out of 88 teams
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/egrillot/Exact-Hidden-Markov-Models">Code</a>
 
 - title: Side deep learning projects
   type: time_table
@@ -111,13 +111,13 @@
     - title: AutoJudge
       year: 2022
       description:
-          - Machine learning model to predicting the outcome of a Supreme Court's judgment
-          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/AutoJudge">Code</a>
+        - Machine learning model to predicting the outcome of a Supreme Court's judgment
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/AutoJudge">Code</a>
     - title: ArXiv Graphs
       year: 2022
       description:
-          - Visualizing arXiv authors with graphs
-          - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/arxiv_graphs">Code</a>
+        - Visualizing arXiv authors with graphs
+        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/arxiv_graphs">Code</a>
 
 - title: Android open-source projects
   type: time_table
