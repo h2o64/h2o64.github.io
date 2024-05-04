@@ -1,24 +1,35 @@
+@misc{grenioux2024stochastic,
+      title        = {Stochastic Localization via Iterative Posterior Sampling},
+      author       = {Louis Grenioux and Maxence Noble and Marylou Gabrié and Alain Durmus},
+      year         = 2024,
+      journal      = {International Machine Learning Society (ICML)},
+      abbr         = {ICML},
+      abstract     = {Building upon score-based learning, new interest in stochastic localization techniques has recently emerged. In these models, one seeks to noise a sample from the data distribution through a stochastic process, called observation process, and progressively learns a denoiser associated to this dynamics. Apart from specific applications, the use of stochastic localization for the problem of sampling from an unnormalized target density has not been explored extensively. This work contributes to fill this gap. We consider a general stochastic localization framework and introduce an explicit class of observation processes, associated with flexible denoising schedules. We provide a complete methodology, Stochastic Localization via Iterative Posterior Sampling (SLIPS), to obtain approximate samples of these dynamics, and as a by-product, samples from the target distribution. Our scheme is based on a Markov chain Monte Carlo estimation of the denoiser and comes with detailed practical guidelines. We illustrate the benefits and applicability of SLIPS on several benchmarks, including Gaussian mixtures in increasing dimensions, Bayesian logistic regression and a high-dimensional field system from statistical-mechanics.},
+      pdf          = {https://arxiv.org/pdf/2402.10758},
+      code         = {https://github.com/h2o64/slips},
+      selected     = true
+}
 @article{grenioux2023balanced,
-      title={Balanced Training of Energy-Based Models with Adaptive Flow Sampling}, 
-      author={Louis Grenioux and Éric Moulines and Marylou Gabrié},
-      journal={Workshop on Structured Probabilistic Inference & Generative Modeling (SPIGM)},
-      year={2023},
-      abbr={ICML},
-      abstract={Energy-based models (EBMs) are versatile density estimation models that directly parameterize an unnormalized log density. Although very flexible, EBMs lack a specified normalization constant of the model, making the likelihood of the model computationally intractable. Several approximate samplers and variational inference techniques have been proposed to estimate the likelihood gradients for training. These techniques have shown promising results in generating samples, but little attention has been paid to the statistical accuracy of the estimated density, such as determining the relative importance of different classes in a dataset. In this work, we propose a new maximum likelihood training algorithm for EBMs that uses a different type of generative model, normalizing flows (NF), which have recently been proposed to facilitate sampling. Our method fits an NF to an EBM during training so that an NF-assisted sampling scheme provides an accurate gradient for the EBMs at all times, ultimately leading to a fast sampler for generating new data.},
-      pdf={https://openreview.net/pdf?id=AwJ2NqxWlk},
-      poster={poster_ebm_spigm2023.pdf},
-      selected = true
+      title        = {Balanced Training of Energy-Based Models with Adaptive Flow Sampling},
+      author       = {Louis Grenioux and Éric Moulines and Marylou Gabrié},
+      year         = 2023,
+      journal      = {Workshop on Structured Probabilistic Inference & Generative Modeling (SPIGM)},
+      abbr         = {ICML},
+      abstract     = {Energy-based models (EBMs) are versatile density estimation models that directly parameterize an unnormalized log density. Although very flexible, EBMs lack a specified normalization constant of the model, making the likelihood of the model computationally intractable. Several approximate samplers and variational inference techniques have been proposed to estimate the likelihood gradients for training. These techniques have shown promising results in generating samples, but little attention has been paid to the statistical accuracy of the estimated density, such as determining the relative importance of different classes in a dataset. In this work, we propose a new maximum likelihood training algorithm for EBMs that uses a different type of generative model, normalizing flows (NF), which have recently been proposed to facilitate sampling. Our method fits an NF to an EBM during training so that an NF-assisted sampling scheme provides an accurate gradient for the EBMs at all times, ultimately leading to a fast sampler for generating new data.},
+      pdf          = {https://openreview.net/pdf?id=AwJ2NqxWlk},
+      poster       = {poster_ebm_spigm2023.pdf},
+      selected     = true
+}
+@misc{grenioux2023sampling,
+      title        = {On Sampling with Approximate Transport Maps},
+      author       = {Louis Grenioux and Alain Durmus and Éric Moulines and Marylou Gabrié},
+      year         = 2023,
+      journal      = {International Machine Learning Society (ICML)},
+      abbr         = {ICML},
+      abstract     = {Transport maps can ease the sampling of distributions with non-trivial geometries by transforming them into distributions that are easier to handle. The potential of this approach has risen with the development of Normalizing Flows (NF) which are maps parameterized with deep neural networks trained to push a reference distribution towards a target. NF-enhanced samplers recently proposed blend (Markov chain) Monte Carlo methods with either (i) proposal draws from the flow or (ii) a flow-based reparametrization. In both cases, the quality of the learned transport conditions performance. The present work clarifies for the first time the relative strengths and weaknesses of these two approaches. Our study concludes that multimodal targets can be reliably handled with flow-based proposals up to moderately high dimensions. In contrast, methods relying on reparametrization struggle with multimodality but are more robust otherwise in high-dimensional settings and under poor training. To further illustrate the influence of target-proposal adequacy, we also derive a new quantitative bound for the mixing time of the Independent Metropolis-Hastings sampler.},
+      pdf          = {https://proceedings.mlr.press/v202/grenioux23a/grenioux23a.pdf},
+      code         = {https://github.com/h2o64/flow_mcmc},
+      poster       = {poster_icml2023.pdf},
+      selected     = true
 }
 
-@misc{grenioux2023sampling,
-      title={On Sampling with Approximate Transport Maps}, 
-      author={Louis Grenioux and Alain Durmus and Éric Moulines and Marylou Gabrié},
-      journal={International Machine Learning Society (ICML)},
-      year={2023},
-      abbr={ICML},
-      abstract={Transport maps can ease the sampling of distributions with non-trivial geometries by transforming them into distributions that are easier to handle. The potential of this approach has risen with the development of Normalizing Flows (NF) which are maps parameterized with deep neural networks trained to push a reference distribution towards a target. NF-enhanced samplers recently proposed blend (Markov chain) Monte Carlo methods with either (i) proposal draws from the flow or (ii) a flow-based reparametrization. In both cases, the quality of the learned transport conditions performance. The present work clarifies for the first time the relative strengths and weaknesses of these two approaches. Our study concludes that multimodal targets can be reliably handled with flow-based proposals up to moderately high dimensions. In contrast, methods relying on reparametrization struggle with multimodality but are more robust otherwise in high-dimensional settings and under poor training. To further illustrate the influence of target-proposal adequacy, we also derive a new quantitative bound for the mixing time of the Independent Metropolis-Hastings sampler.},
-      pdf={https://proceedings.mlr.press/v202/grenioux23a/grenioux23a.pdf},
-      code={https://github.com/h2o64/flow_mcmc},
-      poster={poster_icml2023.pdf},
-      selected = true
-}
