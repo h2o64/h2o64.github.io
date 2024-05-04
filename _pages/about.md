@@ -17,5 +17,5 @@ social: true # includes social icons at the bottom of the page
 **About** I'm a PhD student at [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP) at [École polytechnique](https://www.polytechnique.edu/) with [Marylou Gabrié](https://marylou-gabrie.github.io/) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ). I am a gratuated engineer from [Télécom SudParis
 ](https://www.telecom-sudparis.eu/). My reasearch is generously supported by the [Hi! Paris research center](https://www.hi-paris.fr/).
 
-**Research interests** Generative Models, Energy Based Models, Diffusion Models, Flow Matching, Unsupervised Learning, Markov Chain Monte Carlo
+**Research interests** Generative Models, Sampling, Energy Based Models, Diffusion Models, Flow Matching, Markov Chain Monte Carlo
 
