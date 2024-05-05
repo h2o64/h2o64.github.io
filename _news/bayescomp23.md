@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-I presented a poster at the 3rd edition of [Bayes Comp](https://indico.ictp.it/event/10175) in Levi, Finland.
+I will present a poster at the 3rd edition of [Bayes Comp](https://indico.ictp.it/event/10175) in Levi, Finland.
 
 ***
 

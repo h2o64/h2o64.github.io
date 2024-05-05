@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-I presented a poster at the 4th edition of [Youth in High-Dimensions](https://indico.ictp.it/event/10175) in Trieste, Italy.
+I will present a poster at the 4th edition of [Youth in High-Dimensions](https://indico.ictp.it/event/10175) in Trieste, Italy.
 
 ***
 
