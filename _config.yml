@@ -128,6 +128,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # blog_name: h2o64 # blog_name will be displayed in your blog page
 # blog_description: Personal blog of Louis Grenioux
 # permalink: /blog/:year/:title/
+# lsi: true # produce an index for related posts
 
 # # Pagination
 # pagination:
