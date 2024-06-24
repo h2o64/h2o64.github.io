@@ -1,6 +1,8 @@
 github_users:
   - h2o64
 
+repo_description_lines_max: 2
+
 github_repos:
   - AOSParadox/AOSParadox
   - TINNO-8937/android_device_tinno_msm8937-common
