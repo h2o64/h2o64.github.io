@@ -20,7 +20,7 @@ announcements:
 
 ---
 
-**About** I'm a PhD student at [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP) at [École polytechnique](https://www.polytechnique.edu/) with [Marylou Gabrié](https://marylou-gabrie.github.io/) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ). I am a gratuated engineer from [Télécom SudParis
+**About** I'm a PhD student at [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP) at [École Polytechnique](https://www.polytechnique.edu/) with [Marylou Gabrié](https://marylou-gabrie.github.io/) (ENS Ulm) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ) (École Polytechnique). I am currently visiting the team of [José Miguel Hernández-Lobato](https://jmhl.org/) at Cambridge until the end of June 2025. I am a gratuated engineer from [Télécom SudParis
 ](https://www.telecom-sudparis.eu/). My reasearch is generously supported by the [Hi! Paris research center](https://www.hi-paris.fr/).
 
 **Research interests** Generative Models, Sampling, Energy Based Models, Diffusion Models, Flow Matching, Markov Chain Monte Carlo
