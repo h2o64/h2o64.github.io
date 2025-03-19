@@ -18,10 +18,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 4 # leave blank to include all the news in the `_news` folder
 
-# latest_posts:
-#   enabled: true
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#   limit: 3 # leave blank to include all the blog posts
+---
 
 **About** I'm a PhD student at [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP) at [École polytechnique](https://www.polytechnique.edu/) with [Marylou Gabrié](https://marylou-gabrie.github.io/) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ). I am a gratuated engineer from [Télécom SudParis
 ](https://www.telecom-sudparis.eu/). My reasearch is generously supported by the [Hi! Paris research center](https://www.hi-paris.fr/).
