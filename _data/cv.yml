@@ -17,11 +17,14 @@
       description:
         - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://scholar.google.fr/citations?user=_XE1LvQAAAAJ">Éric Moulines</a>
         - Interactions and opportunities at the crossroads of deep probabilistic modelling and statistical inference through Markov Chains Monte Carlo
-        - Created new algorithms mixing normalizing ﬂows and energy-based models
+        - Created new sampling algorithms leveraging deep generative models such as normalizing flows and diffusion models
+        - Visited <a href="https://jmhl.org/">José Miguel Hernández-Lobato</a> at the University of Cambridge for 4 months
         - title: Papers
           contents:
-            - 2 ICML papers
+            - 1 ICLR paper
+            - 2 ICML papers (including 1 spotlight)
             - 1 ICML workshop paper
+            - 1 ICLR workshop paper
     - title: MSc. in Data Science
       institution: École Polytechnique (IP Paris), Palaiseau, France
       year: 2022
