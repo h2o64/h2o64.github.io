@@ -28,6 +28,7 @@ orcid_id: 0000-0002-1864-3595 # your ORCID ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
+rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: eLpNKSEAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
