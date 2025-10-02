@@ -56,6 +56,12 @@ ninja.data = [{
           section: "News",},{id: "news-my-latest-paper-learned-reference-based-diffusion-sampling-for-multi-modal-distributions-co-authored-with-maxence-noble-marylou-gabrié-and-alain-durmus-has-been-accepted-at-iclr-2025-moreover-my-reflexion-paper-improving-the-evaluation-of-samplers-on-multi-modal-targets-written-with-maxence-and-marylou-was-accepted-at-the-workshop-frontiers-in-probabilistic-inference-learning-meets-sampling-at-iclr-2025-see-you-in-singapore",
           title: 'My latest paper Learned Reference-based Diffusion Sampling for multi-modal distributions co-authored with Maxence...',
           description: "",
+          section: "News",},{id: "news-i-will-defend-my-phd-on-october-31st-2025-at-école-polytechnique-in-amphithéâtre-cauchy",
+          title: 'I will defend my PhD on October 31st, 2025 at École Polytechnique in...',
+          description: "",
+          section: "News",},{id: "news-i-am-organizing-the-2nd-edition-of-the-frontiers-in-probabilistic-inference-sampling-meets-learning-workshop-at-neurips-2025-in-san-diego",
+          title: 'I am organizing the 2nd edition of the Frontiers in Probabilistic Inference: Sampling...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
