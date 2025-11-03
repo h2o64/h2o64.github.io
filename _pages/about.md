@@ -20,7 +20,11 @@ announcements:
 
 ---
 
-**About** I'm a PhD student at [Centre de Mathématiques Appliquées](https://cmap.ip-paris.fr/) (CMAP) at [École Polytechnique](https://www.polytechnique.edu/) with [Marylou Gabrié](https://marylou-gabrie.github.io/) (ENS Ulm) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ) (École Polytechnique). I am currently visiting the team of [José Miguel Hernández-Lobato](https://jmhl.org/) at Cambridge until the end of June 2025. I am a gratuated engineer from [Télécom SudParis
-](https://www.telecom-sudparis.eu/). My research is generously supported by the [Hi! Paris research center](https://www.hi-paris.fr/).
+Starting in January 2026, I will join the [Center for Computational Mathematics](https://www.simonsfoundation.org/flatiron/center-for-computational-mathematics/) at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) in New York as a Research Fellow.
+
+I completed my PhD at the [Centre de Mathématiques Appliquées (CMAP)](https://cmap.ip-paris.fr/), [École Polytechnique](https://www.polytechnique.edu/), under the supervision of [Marylou Gabrié](https://marylou-gabrie.github.io/) (ENS Ulm) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ) (École Polytechnique). During spring 2025, I visited the group of [José Miguel Hernández-Lobato](https://jmhl.org/) at the University of Cambridge. My doctoral work was generously supported by the [Hi! Paris Research Center](https://www.hi-paris.fr/).
+
+Before that, I graduated as an engineer from [Télécom SudParis](https://www.telecom-sudparis.eu/).
+ 
 
 **Research interests** Generative Models, Sampling, Energy Based Models, Diffusion Models, Flow Matching, Markov Chain Monte Carlo
