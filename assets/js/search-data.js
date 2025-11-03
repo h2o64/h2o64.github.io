@@ -59,7 +59,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-give-a-talk-at-the-intersection-between-generative-modeling-and-sampling-at-séminaire-jeunes-chercheurs-de-reims-on-october-9th",
           title: 'I will give a talk at the intersection between generative modeling and sampling...',
           description: "",
-          section: "News",},{id: "news-i-will-defend-my-phd-on-october-31st-2025-at-école-polytechnique-in-amphithéâtre-cauchy",
+          section: "News",},{id: "news-i-will-defend-my-phd-on-october-31st-2025-at-école-polytechnique-in-amphithéâtre-cauchy-the-slides-are-available-here",
           title: 'I will defend my PhD on October 31st, 2025 at École Polytechnique in...',
           description: "",
           section: "News",},{id: "news-i-am-organizing-the-2nd-edition-of-the-frontiers-in-probabilistic-inference-sampling-meets-learning-workshop-at-neurips-2025-in-san-diego",
