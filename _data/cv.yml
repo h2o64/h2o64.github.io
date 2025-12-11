@@ -13,12 +13,13 @@
   contents:
     - title: PhD in Deep Learning
       institution: CMAP, École Polytechnique, Palaiseau, France
-      year: 2022-now
+      year: 2022-2025
       description:
         - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://scholar.google.fr/citations?user=_XE1LvQAAAAJ">Éric Moulines</a>
         - Interactions and opportunities at the crossroads of deep probabilistic modelling and statistical inference through Markov Chains Monte Carlo
         - Created new sampling algorithms leveraging deep generative models such as normalizing flows and diffusion models
         - Visited <a href="https://jmhl.org/">José Miguel Hernández-Lobato</a> at the University of Cambridge for 4 months
+        - Co-organised the 2nd edition of the <a href="https://fpineurips.framer.website/">Frontiers in Probabilistic Inference</a> workshop at NeurIPS 2025.
         - title: Papers
           contents:
             - 1 ICLR paper
