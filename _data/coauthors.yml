@@ -13,3 +13,15 @@
 "noble":
   - firstname: ["Maxence", "Maxence Noble"]
     url: https://maxencenoble.github.io/
+
+"galliano":
+  - firstname: ["Leonardo", "Leonardo Galliano"]
+    url: https://scholar.google.fr/citations?user=Ij0e3uIAAAAJ&hl=fr
+
+"berthier":
+  - firstname: ["Ludovic", "Ludovic Berthier"]
+    url: https://ludovicberthier.github.io/
+
+"biroli":
+  - firstname: ["Giulio", "Giulio Biroli"]
+    url: https://www.lpens.ens.psl.eu/giulio-biroli/
