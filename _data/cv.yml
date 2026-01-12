@@ -6,7 +6,7 @@
     - name: Languages
       value: French, English, Spanish
     - name: Contact
-      value: <span style="font-family:'Lucida Console', monospace">lgrenioux at gmail dot com</span>
+      value: <span style="font-family:'Lucida Console', monospace">lgrenioux at flatironinstitute dot org</span>
 
 - title: Education
   type: time_table
