@@ -1,167 +1,167 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Louis Grenioux
-    - name: Languages
-      value: French, English, Spanish
-    - name: Contact
-      value: <span style="font-family:'Lucida Console', monospace">lgrenioux at flatironinstitute dot org</span>
+cv:
+  name: Louis Grenioux
+  label: Research Fellow
+  email: lgrenioux@flatironinstitute.org
+  location: New York, USA
+  image: ""
+  summary: Machine learning researcher working at the intersection of deep probabilistic modelling and statistical inference, with a focus on Markov Chain Monte Carlo methods enhanced by deep generative models.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Fellow Researcher
-      institution: Flatiron Insitute, New York, USA
-      year: 2026 - Now
-      description:
-        - Using ML-enhanced sampling techniques to solve scientific problems and improve Bayesian inference
-    - title: Research assistant
-      institution: CMAP, École Polytechnique, Palaiseau, France
-      year: 2022
-      description:
-        - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://sylvainlc.github.io/">Sylvain Le Corff</a>
-        - Worked on Markov Chain Monte Carlo algorithms enhanced with Deep Learning
-        - Developed new algorithms for energy-based models estimation using normalizing flows
-    - title: Full Stack Data Scientist
-      institution: Freelance
-      year: 2021 - 2023
-      description:
-        - Developed web platform to use AI tools
-        - Scaled proof of concept for production usage
-    - title: Research Engineer Intern
-      institution: Linagora, Paris, France
-      year: 2020
-      description:
-        - Created AI tools for legal audits automation
-        - Developed a data pipeline from scratch (data engineering, modeling, data visualization, model evaluation)
-        - Matching the state of the art performance
-    - title: Software Engineer (Part-time)
-      institution: YU Televentures, Gurgaon, India
-      year: 2014 - 2015
-      description:
-        - Developed the Android 6.0 production OS
-        - Developed open-source tools for the community
+  social_networks:
+    - network: GitHub
+      username: h2o64
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Deep Learning and Statistics
-      institution: CMAP, École Polytechnique, Palaiseau, France
-      year: 2022-2025
-      description:
-        - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://scholar.google.fr/citations?user=_XE1LvQAAAAJ">Éric Moulines</a>
-        - Interactions and opportunities at the crossroads of deep probabilistic modelling and statistical inference through Markov Chains Monte Carlo
-        - Created new sampling algorithms leveraging deep generative models such as normalizing flows and diffusion models
-        - Visited <a href="https://jmhl.org/">José Miguel Hernández-Lobato</a> at the University of Cambridge for 4 months
-        - Co-organised the 2nd edition of the <a href="https://fpineurips.framer.website/">Frontiers in Probabilistic Inference</a> workshop at NeurIPS 2025.
-        - title: Papers
-          contents:
-            - 1 ICLR paper
-            - 2 ICML papers (including 1 spotlight)
-            - 1 ICML workshop paper
-            - 1 ICLR workshop paper
-    - title: MSc. in Data Science
-      institution: École Polytechnique (IP Paris), Palaiseau, France
-      year: 2022
-      description:
-        - Master Year 2 Data Science of Institut Polytechnique de Paris
-        - Deep Learning, Reinforcement Learning, Computer Vision, Natural Langage Processing, Generative Models, MCMC, Optimal Transport, Optimization
-    - title: MSc. in Statistics and Computer Science
-      institution: Télécom SudParis, Palaiseau/Évry, France
-      year: 2019 - 2022
-      description:
-        - Grande école engineering master
-        - Valedictorian of the promotion TSP2022
-        - Statistics, Data Analysis, Data Mining, Bayesian Inference, Stochastic Processes
-        - Java, C, Unix, Web Fronted/Backend, SQL
+  sections:
+    Experience:
+      - company: Flatiron Institute
+        position: Research Fellow
+        location: New York, USA
+        start_date: 2026
+        end_date: present
+        highlights:
+          - Using ML-enhanced sampling techniques to solve scientific problems and improve Bayesian inference
 
-- title: Deep Learning competitions
-  type: time_table
-  contents:
-    - title: Hi!ckathon March 2022 - Team Hi!Gency
-      year: 2022
-      description:
-        - 2nd edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
-        - Building AI for climate using computer vision
-        - <i class="fa fa-trophy"></i> 1st position on innovation
-        - <i class="fa-solid fa-medal"></i> 2nd position on business opportunity
-        - <i class="fa-solid fa-medal"></i> 1st position on scientific approach
-    - title: Generative Modelling for Financial Losses
-      year: 2022
-      description:
-        - AI competition aiming at improving ﬁnancial stress test methods with deep learning
-        - Organised by BNP Paribas and École Polytechnique
-        - Generative Adversarial Networks
-        - <i class="fa fa-trophy"></i> 1st position out of 60 teams
-    - title: "AI4IA : Artificial Intelligence for Industrial Application"
-      year: 2021
-      description:
-        - The challenge AI4IA was organized by SKF and hosted by Agorize
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/https://github.com/h2o64/ai4ia_2021">Code</a>
-    - title: Hi!ckathon March 2021 - Team CorAI
-      year: 2021
-      description:
-        - 1st edition of <a href="https://www.hi-paris.fr/">Hi!Paris</a>’s high-level hackathon
-        - Building AI for energy efficiency using reinforcement learning
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/hickathon_2021">Code</a>
-    - title: Cassiopée 2021 - AI towards Trading
-      year: 2020 - 2021
-      description:
-        - Project leader
-        - During the Cassiopée project, Télécom SudParis' students solve on real-world projects supervised by professors and domain-specific professionals
-        - Developed an unique real-time trading bot without neural networks using sequential monte-carlo
-        - <i class="fa fa-trophy"></i> 1st position out of 88 teams
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/egrillot/Exact-Hidden-Markov-Models">Code</a>
+      - company: CMAP, École Polytechnique
+        position: Research Assistant
+        location: Palaiseau, France
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - Worked under the supervision of Marylou Gabrié and Sylvain Le Corff
+          - Developed Markov Chain Monte Carlo algorithms enhanced with deep learning
+          - Designed new algorithms for energy-based model estimation using normalizing flows
 
-- title: Side deep learning projects
-  type: time_table
-  contents:
-    - title: AutoJudge
-      year: 2022
-      description:
-        - Machine learning model to predicting the outcome of a Supreme Court's judgment
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/AutoJudge">Code</a>
-    - title: ArXiv Graphs
-      year: 2022
-      description:
-        - Visualizing arXiv authors with graphs
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/h2o64/arxiv_graphs">Code</a>
+      - company: Freelance
+        position: Full Stack Data Scientist
+        location: ""
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Developed a web platform to use AI tools
+          - Scaled proofs of concept for production usage
 
-- title: Android open-source projects
-  type: time_table
-  contents:
-    - title: Xiaomi SDM439
-      year: 2019 - 2021
-      description:
-        - Code for open-source development of the Xiaomi products using the SDM439 chipset (Xiaomi Redmi 8, Xiaomi Redmi 8A, Xiaomi Redmi 8A Pro, Xiaomi Redmi 8A Dual, Xiaomi Redmi 7, Xiaomi Redmi 7A)
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/Xiaomi-SDM439">Code</a>
-    - title: Tinno MSM8937
-      year: 2016 - 2021
-      description:
-        - Reference code for open-source development on Tinno's ODM MSM8937 devices
-        - title: Devices
-          contents:
-            - "YU : Yureka Black (garlic)"
-            - "Wiko : Wim Lite (wimlite)"
-            - "Micromax : HS2 (hs2) / HS3 (hs3)"
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/Xiaomi-SDM439">Code</a>
-    - title: AOSParadox
-      year: 2015 - 2017
-      description:
-        - First CAF-based ROM directly mirrored on CodeAurora
-        - Very sucessful project
-        - Winner of the YU-AOSP-M challenge on 3 devices out of 3
-        - title: People
-          contents:
-            - <a href="https://github.com/h2o64">Louis Popi</a> as core developer
-            - <a href="https://github.com/rudij7">Rutash Joshipura</a> as main developer and co-founder
-            - <a href="https://github.com/YordiDR">Yordi De Rijcke</a> as bacon tester and infrastructure manager
-            - <a href="https://github.com/loveboylion">Lionel Colaso</a> as tomato/onyx tester and YU manager
-            - <a href="https://github.com/edisile">Eduard M</a> as graphic designer
-            - <a href="https://github.com/Thecrazyskull">Anas Karbila</a> as main developer
-        - title: Supported devices
-          contents:
-            - "OnePlus : OnePlus One (bacon), OnePlus X (onyx)"
-            - "YU: Yureka (tomato), Yureka Plus (tomato), Yureka S (onion), Yureka Black (garlic), Yuphoria (lettuce), Yunique (jalebi)"
-        - <i class="fa-brands fa-github"></i> <a href="https://github.com/AOSParadox">Code</a>
+      - company: Linagora
+        position: Research Engineer Intern
+        location: Paris, France
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - Created AI tools for legal audit automation
+          - Developed a data pipeline from scratch (data engineering, modelling, data visualisation, model evaluation)
+          - Matched state-of-the-art performance
+
+      - company: YU Televentures
+        position: Software Engineer (Part-time)
+        location: Gurgaon, India
+        start_date: 2014
+        end_date: 2015
+        highlights:
+          - Developed the Android 6.0 production OS
+          - Developed open-source tools for the community
+
+    Education:
+      - institution: CMAP, École Polytechnique
+        location: Palaiseau, France
+        area: Deep Learning and Statistics
+        studyType: PhD
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - Supervised by Marylou Gabrié and Éric Moulines
+          - Research at the crossroads of deep probabilistic modelling and statistical inference through Markov Chain Monte Carlo
+          - Created new sampling algorithms leveraging deep generative models such as normalizing flows and diffusion models
+          - Visited José Miguel Hernández-Lobato at the University of Cambridge for 4 months
+          - Co-organised the 2nd edition of the Frontiers in Probabilistic Inference workshop at NeurIPS 2025
+          - "Publications: 1 ICLR paper, 2 ICML papers (including 1 spotlight), 1 ICML workshop paper, 1 ICLR workshop paper"
+
+      - institution: École Polytechnique (IP Paris)
+        location: Palaiseau, France
+        area: Data Science
+        studyType: MSc
+        start_date: 2021
+        end_date: 2022
+        highlights:
+          - Master Year 2 Data Science of Institut Polytechnique de Paris
+          - "Coursework: Deep Learning, Reinforcement Learning, Computer Vision, Natural Language Processing, Generative Models, MCMC, Optimal Transport, Optimization"
+
+      - institution: Télécom SudParis
+        location: Palaiseau/Évry, France
+        area: Statistics and Computer Science
+        studyType: MSc (Grande École engineering master)
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Valedictorian of the promotion TSP2022
+          - "Coursework: Statistics, Data Analysis, Data Mining, Bayesian Inference, Stochastic Processes"
+          - "Programming: Java, C, Unix, Web Frontend/Backend, SQL"
+
+    Awards:
+      - title: Hi!ckathon March 2022 — 1st Innovation, 1st Scientific Approach, 2nd Business Opportunity
+        date: 2022-03
+        awarder: Hi!Paris (Team Hi!Gency)
+        summary: 2nd edition of Hi!Paris's high-level hackathon on building AI for climate using computer vision.
+
+      - title: Generative Modelling for Financial Losses — 1st Place
+        date: 2022
+        awarder: BNP Paribas and École Polytechnique
+        summary: 1st position out of 60 teams in an AI competition on improving financial stress-test methods using Generative Adversarial Networks.
+
+      - title: Cassiopée 2021, AI towards Trading — 1st Place
+        date: 2021
+        awarder: Télécom SudParis
+        summary: Project leader. Built a real-time trading bot using sequential Monte Carlo (without neural networks). 1st position out of 88 teams.
+
+    Projects:
+      - name: AI4IA — Artificial Intelligence for Industrial Application
+        start_date: 2021
+        end_date: 2021
+        summary: AI competition organised by SKF and hosted by Agorize.
+        highlights:
+          - "Code: https://github.com/h2o64/ai4ia_2021"
+
+      - name: Hi!ckathon March 2021 — Team CorAI
+        start_date: 2021-03
+        end_date: 2021-03
+        summary: 1st edition of Hi!Paris's high-level hackathon. Building AI for energy efficiency using reinforcement learning.
+        highlights:
+          - "Code: https://github.com/h2o64/hickathon_2021"
+
+      - name: AutoJudge
+        start_date: 2022
+        end_date: 2022
+        summary: Machine learning model predicting the outcome of US Supreme Court judgments.
+        highlights:
+          - "Code: https://github.com/h2o64/AutoJudge"
+
+      - name: ArXiv Graphs
+        start_date: 2022
+        end_date: 2022
+        summary: Visualising arXiv authors with graphs.
+        highlights:
+          - "Code: https://github.com/h2o64/arxiv_graphs"
+
+      - name: Xiaomi SDM439
+        start_date: 2019
+        end_date: 2021
+        summary: Open-source development for Xiaomi products using the SDM439 chipset (Redmi 8, 8A, 8A Pro, 8A Dual, 7, 7A).
+        highlights:
+          - "Code: https://github.com/Xiaomi-SDM439"
+
+      - name: Tinno MSM8937
+        start_date: 2016
+        end_date: 2021
+        summary: Reference code for open-source development on Tinno's ODM MSM8937 devices, including YU Yureka Black (garlic), Wiko Wim Lite (wimlite), and Micromax HS2 (hs2) / HS3 (hs3).
+
+      - name: AOSParadox
+        start_date: 2015
+        end_date: 2017
+        summary: First CAF-based ROM directly mirrored on CodeAurora. Winner of the YU-AOSP-M challenge on 3 devices out of 3. Core developer alongside co-founder Rutash Joshipura. Supported devices include OnePlus One (bacon), OnePlus X (onyx), and various YU devices (Yureka, Yureka Plus, Yureka S, Yureka Black, Yuphoria, Yunique).
+        highlights:
+          - "Code: https://github.com/AOSParadox"
+
+    Languages:
+      - name: French
+        summary: "Native"
+      - name: English
+        summary: "Fluent"
+      - name: Spanish
+        summary: "Conversational"
