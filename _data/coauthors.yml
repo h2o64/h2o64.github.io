@@ -10,6 +10,10 @@
   - firstname: ["Alain", "Alain Durmus", "Alain Oliviero Durmus"]
     url: http://alain.perso.math.cnrs.fr/
 
+"oliviero":
+  - firstname: ["Alain", "Alain Durmus", "Alain Oliviero Durmus"]
+    url: http://alain.perso.math.cnrs.fr/
+
 "noble":
   - firstname: ["Maxence", "Maxence Noble"]
     url: https://maxencenoble.github.io/
@@ -25,3 +29,23 @@
 "biroli":
   - firstname: ["Giulio", "Giulio Biroli"]
     url: https://www.lpens.ens.psl.eu/giulio-biroli/
+
+"ouyang":
+  - firstname: ["RuiKang", "RuiKang OuYang"]
+    url: https://tonyauyeung.github.io/
+
+"miguel":
+  - firstname: ["José", "José Hernández-Lobato", "Miguel Hernández-Lobato", "José Miguel Hernández-Lobato"]
+    url: https://jmhl.org/
+
+"hernandez-lobato":
+  - firstname: ["José", "José Hernández-Lobato", "Miguel Hernández-Lobato", "José Miguel Hernández-Lobato"]
+    url: https://jmhl.org/
+
+"lobato":
+  - firstname: ["José", "José Hernández-Lobato", "Miguel Hernández-Lobato", "José Miguel Hernández-Lobato"]
+    url: https://jmhl.org/
+
+"hernandez":
+  - firstname: ["José", "José Hernández-Lobato", "Miguel Hernández-Lobato", "José Miguel Hernández-Lobato"]
+    url: https://jmhl.org/
