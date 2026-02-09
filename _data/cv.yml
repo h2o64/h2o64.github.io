@@ -8,10 +8,45 @@
     - name: Contact
       value: <span style="font-family:'Lucida Console', monospace">lgrenioux at flatironinstitute dot org</span>
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Fellow Researcher
+      institution: Flatiron Insitute, New York, USA
+      year: 2026 - Now
+      description:
+        - Using ML-enhanced sampling techniques to solve scientific problems and improve Bayesian inference
+    - title: Research assistant
+      institution: CMAP, École Polytechnique, Palaiseau, France
+      year: 2022
+      description:
+        - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://sylvainlc.github.io/">Sylvain Le Corff</a>
+        - Worked on Markov Chain Monte Carlo algorithms enhanced with Deep Learning
+        - Developed new algorithms for energy-based models estimation using normalizing flows
+    - title: Full Stack Data Scientist
+      institution: Freelance
+      year: 2021 - 2023
+      description:
+        - Developed web platform to use AI tools
+        - Scaled proof of concept for production usage
+    - title: Research Engineer Intern
+      institution: Linagora, Paris, France
+      year: 2020
+      description:
+        - Created AI tools for legal audits automation
+        - Developed a data pipeline from scratch (data engineering, modeling, data visualization, model evaluation)
+        - Matching the state of the art performance
+    - title: Software Engineer (Part-time)
+      institution: YU Televentures, Gurgaon, India
+      year: 2014 - 2015
+      description:
+        - Developed the Android 6.0 production OS
+        - Developed open-source tools for the community
+
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Deep Learning
+    - title: PhD in Deep Learning and Statistics
       institution: CMAP, École Polytechnique, Palaiseau, France
       year: 2022-2025
       description:
@@ -40,36 +75,6 @@
         - Valedictorian of the promotion TSP2022
         - Statistics, Data Analysis, Data Mining, Bayesian Inference, Stochastic Processes
         - Java, C, Unix, Web Fronted/Backend, SQL
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research assistant
-      institution: CMAP, École Polytechnique, Palaiseau, France
-      year: 2022
-      description:
-        - Under the supervision of <a href="https://marylou-gabrie.github.io/">Marylou Gabrié</a> and <a href="https://sylvainlc.github.io/">Sylvain Le Corff</a>
-        - Worked on Markov Chain Monte Carlo algorithms enhanced with Deep Learning
-        - Developed new algorithms for energy-based models estimation using normalizing flows
-    - title: Full Stack Data Scientist
-      institution: Freelance
-      year: 2021 - 2023
-      description:
-        - Developed web platform to use AI tools
-        - Scaled proof of concept for production usage
-    - title: Research Engineer Intern
-      institution: Linagora, Paris, France
-      year: 2020
-      description:
-        - Created AI tools for legal audits automation
-        - Developed a data pipeline from scratch (data engineering, modeling, data visualization, model evaluation)
-        - Matching the state of the art performance
-    - title: Software Engineer (Part-time)
-      institution: YU Televentures, Gurgaon, India
-      year: 2014 - 2015
-      description:
-        - Developed the Android 6.0 production OS
-        - Developed open-source tools for the community
 
 - title: Deep Learning competitions
   type: time_table

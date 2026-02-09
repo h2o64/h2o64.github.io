@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: "louis_grenioux_cv_oct2025.pdf"
+cv_pdf: "louis_grenioux_cv_jan2026.pdf"
 toc:
   sidebar: left
 ---
