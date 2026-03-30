@@ -68,6 +68,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-joining-the-center-for-computational-mathematics-at-the-flatiron-institute-as-a-research-fellow",
           title: 'I am joining the Center for Computational Mathematics at the Flatiron Institute as...',
           description: "",
+          section: "News",},{id: "news-i-will-be-visiting-alexandre-bouchard-côté-at-university-of-british-columbia-vancouver-canada-from-march-30th-to-april-6th-i-will-be-giving-a-talk-at-the-statistics-seminar-the-slides-are-here",
+          title: 'I will be visiting Alexandre Bouchard-Côté at University of British Columbia (Vancouver, Canada)...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
