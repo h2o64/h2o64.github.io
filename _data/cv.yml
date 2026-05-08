@@ -26,13 +26,13 @@ cv:
         start_date: 2022
         end_date: 2022
         highlights:
-          - Worked under the supervision of Marylou Gabrié and Sylvain Le Corff
+          - "Worked under the supervision of [Marylou Gabrié](https://marylou-gabrie.github.io/) and [Sylvain Le Corff](https://sylvainlc.github.io/)"
           - Developed Markov Chain Monte Carlo algorithms enhanced with deep learning
           - Designed new algorithms for energy-based model estimation using normalizing flows
 
       - company: Freelance
         position: Full Stack Data Scientist
-        location: ""
+        location: Paris, France
         start_date: 2021
         end_date: 2023
         highlights:
@@ -61,20 +61,22 @@ cv:
     Education:
       - institution: CMAP, École Polytechnique
         location: Palaiseau, France
+        url: https://www.polytechnique.edu/
         area: Deep Learning and Statistics
         studyType: PhD
         start_date: 2022
         end_date: 2025
         highlights:
-          - Supervised by Marylou Gabrié and Éric Moulines
+          - "Supervised by [Marylou Gabrié](https://marylou-gabrie.github.io/) and [Éric Moulines](https://scholar.google.fr/citations?user=_XE1LvQAAAAJ)"
           - Research at the crossroads of deep probabilistic modelling and statistical inference through Markov Chain Monte Carlo
           - Created new sampling algorithms leveraging deep generative models such as normalizing flows and diffusion models
-          - Visited José Miguel Hernández-Lobato at the University of Cambridge for 4 months
-          - Co-organised the 2nd edition of the Frontiers in Probabilistic Inference workshop at NeurIPS 2025
+          - "Visited [José Miguel Hernández-Lobato](https://jmhl.org/) at the University of Cambridge for 4 months"
+          - "Co-organised the 2nd edition of the [Frontiers in Probabilistic Inference](https://fpineurips.framer.website/) workshop at NeurIPS 2025"
           - "Publications: 1 ICLR paper, 2 ICML papers (including 1 spotlight), 1 ICML workshop paper, 1 ICLR workshop paper"
 
       - institution: École Polytechnique (IP Paris)
         location: Palaiseau, France
+        url: https://www.ip-paris.fr/
         area: Data Science
         studyType: MSc
         start_date: 2021
@@ -85,6 +87,7 @@ cv:
 
       - institution: Télécom SudParis
         location: Palaiseau/Évry, France
+        url: https://www.telecom-sudparis.eu/
         area: Statistics and Computer Science
         studyType: MSc (Grande École engineering master)
         start_date: 2019
@@ -98,6 +101,7 @@ cv:
       - title: Hi!ckathon March 2022 — 1st Innovation, 1st Scientific Approach, 2nd Business Opportunity
         date: 2022-03
         awarder: Hi!Paris (Team Hi!Gency)
+        url: https://www.hi-paris.fr/
         summary: 2nd edition of Hi!Paris's high-level hackathon on building AI for climate using computer vision.
 
       - title: Generative Modelling for Financial Losses — 1st Place
@@ -108,55 +112,43 @@ cv:
       - title: Cassiopée 2021, AI towards Trading — 1st Place
         date: 2021
         awarder: Télécom SudParis
-        summary: Project leader. Built a real-time trading bot using sequential Monte Carlo (without neural networks). 1st position out of 88 teams.
+        summary: "Project leader. Built a real-time trading bot using sequential Monte Carlo (without neural networks). 1st position out of 88 teams. [Code](https://github.com/egrillot/Exact-Hidden-Markov-Models)."
 
     Projects:
       - name: AI4IA — Artificial Intelligence for Industrial Application
         start_date: 2021
         end_date: 2021
-        summary: AI competition organised by SKF and hosted by Agorize.
-        highlights:
-          - "Code: https://github.com/h2o64/ai4ia_2021"
+        summary: "AI competition organised by SKF and hosted by Agorize. [Code](https://github.com/h2o64/ai4ia_2021)."
 
       - name: Hi!ckathon March 2021 — Team CorAI
         start_date: 2021-03
         end_date: 2021-03
-        summary: 1st edition of Hi!Paris's high-level hackathon. Building AI for energy efficiency using reinforcement learning.
-        highlights:
-          - "Code: https://github.com/h2o64/hickathon_2021"
+        summary: "1st edition of [Hi!Paris](https://www.hi-paris.fr/)'s high-level hackathon. Building AI for energy efficiency using reinforcement learning. [Code](https://github.com/h2o64/hickathon_2021)."
 
       - name: AutoJudge
         start_date: 2022
         end_date: 2022
-        summary: Machine learning model predicting the outcome of US Supreme Court judgments.
-        highlights:
-          - "Code: https://github.com/h2o64/AutoJudge"
+        summary: "Machine learning model predicting the outcome of US Supreme Court judgments. [Code](https://github.com/h2o64/AutoJudge)."
 
       - name: ArXiv Graphs
         start_date: 2022
         end_date: 2022
-        summary: Visualising arXiv authors with graphs.
-        highlights:
-          - "Code: https://github.com/h2o64/arxiv_graphs"
+        summary: "Visualising arXiv authors with graphs. [Code](https://github.com/h2o64/arxiv_graphs)."
 
       - name: Xiaomi SDM439
         start_date: 2019
         end_date: 2021
-        summary: Open-source development for Xiaomi products using the SDM439 chipset (Redmi 8, 8A, 8A Pro, 8A Dual, 7, 7A).
-        highlights:
-          - "Code: https://github.com/Xiaomi-SDM439"
+        summary: "Open-source development for Xiaomi products using the SDM439 chipset (Redmi 8, 8A, 8A Pro, 8A Dual, 7, 7A). [Code](https://github.com/Xiaomi-SDM439)."
 
       - name: Tinno MSM8937
         start_date: 2016
         end_date: 2021
-        summary: Reference code for open-source development on Tinno's ODM MSM8937 devices, including YU Yureka Black (garlic), Wiko Wim Lite (wimlite), and Micromax HS2 (hs2) / HS3 (hs3).
+        summary: "Reference code for open-source development on Tinno's ODM MSM8937 devices, including YU Yureka Black (garlic), Wiko Wim Lite (wimlite), and Micromax HS2 (hs2) / HS3 (hs3)."
 
       - name: AOSParadox
         start_date: 2015
         end_date: 2017
-        summary: First CAF-based ROM directly mirrored on CodeAurora. Winner of the YU-AOSP-M challenge on 3 devices out of 3. Core developer alongside co-founder Rutash Joshipura. Supported devices include OnePlus One (bacon), OnePlus X (onyx), and various YU devices (Yureka, Yureka Plus, Yureka S, Yureka Black, Yuphoria, Yunique).
-        highlights:
-          - "Code: https://github.com/AOSParadox"
+        summary: "First CAF-based ROM directly mirrored on CodeAurora. Winner of the YU-AOSP-M challenge on 3 devices out of 3. Core developer alongside co-founder [Rutash Joshipura](https://github.com/rudij7). Supported devices include OnePlus One (bacon), OnePlus X (onyx), and various YU devices (Yureka, Yureka Plus, Yureka S, Yureka Black, Yuphoria, Yunique). [Code](https://github.com/AOSParadox)."
 
     Languages:
       - name: French
