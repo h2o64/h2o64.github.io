@@ -71,6 +71,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-visiting-alexandre-bouchard-côté-at-university-of-british-columbia-vancouver-canada-from-march-30th-to-april-6th-i-will-be-giving-a-talk-at-the-statistics-seminar-the-slides-are-here",
           title: 'I will be visiting Alexandre Bouchard-Côté at University of British Columbia (Vancouver, Canada)...',
           description: "",
+          section: "News",},{id: "news-my-paper-a-diffusive-classification-loss-for-learning-energy-based-generative-models-with-tony-ruikang-ouyang-and-josé-miguel-hernández-lobato-was-accepted-at-icml-2026-i-won-t-be-in-seoul-in-july-but-tony-will",
+          title: 'My paper “A Diffusive Classification Loss for Learning Energy-based Generative Models” with Tony...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
