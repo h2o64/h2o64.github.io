@@ -12,17 +12,15 @@
   selected     = {true},
   bibtex_show  = {true}
 }
-@misc{grenioux2026diffusiveclassificationlosslearning,
+@inproceedings{grenioux2026diffusiveclassificationlosslearning,
   title        = {A Diffusive Classification Loss for Learning Energy-based Generative Models},
   author       = {Louis Grenioux* and RuiKang OuYang* and José Miguel Hernández-Lobato},
   year         = 2026,
+  booktitle    = {Forty-third International Conference on Machine Learning},
   url          = {https://arxiv.org/abs/2601.21025},
-  abbr         = {arXiv},
+  abbr         = {ICML},
   abstract     = {Score-based generative models have recently achieved remarkable success. While they are usually parameterized by the score, an alternative way is to use a series of time-dependent energy-based models (EBMs), where the score is obtained from the negative input-gradient of the energy. Crucially, EBMs can be leveraged not only for generation, but also for tasks such as compositional sampling or building Boltzmann Generators via Monte Carlo methods. However, training EBMs remains challenging. Direct maximum likelihood is computationally prohibitive due to the need for nested sampling, while score matching, though efficient, suffers from mode blindness. To address these issues, we introduce the Diffusive Classification (DiffCLF) objective, a simple method that avoids blindness while remaining computationally efficient. DiffCLF reframes EBM learning as a supervised classification problem across noise levels, and can be seamlessly combined with standard score-based objectives. We validate the effectiveness of DiffCLF by comparing the estimated energies against ground truth in analytical Gaussian mixture cases, and by applying the trained models to tasks such as model composition and Boltzmann Generator sampling. Our results show that DiffCLF enables EBMs with higher fidelity and broader applicability than existing approaches.},
   pdf          = {https://arxiv.org/pdf/2601.21025},
-  eprint       = {2601.21025},
-  archiveprefix = {arXiv},
-  primaryclass = {stat.ML},
   selected     = {true},
   bibtex_show  = {true}
 }
