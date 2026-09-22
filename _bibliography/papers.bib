@@ -24,12 +24,13 @@
   selected     = {true},
   bibtex_show  = {true}
 }
-@misc{grenioux2025riemannian,
+@article{grenioux2025riemannian,
   title        = {Boltzmann generators for amorphous particle systems},
   author       = {Louis Grenioux* and Leonardo Galliano* and Ludovic Berthier and Giulio Biroli and Marylou Gabri{\'e}},
   year         = 2025,
+  journal      = {The Journal of Chemical Physics},
   url          = {https://arxiv.org/abs/2512.16607},
-  abbr         = {arXiv},
+  abbr         = {JCP},
   abstract     = {Sampling configurations in thermodynamic equilibrium is a long-standing challenge in statistical physics. Boltzmann generators address this problem by employing generative models to propose independent configurations, which are then reweighted via importance sampling using exact likelihood evaluations. Recent Boltzmann Generators based on continuous normalizing flows and flow matching have achieved significant success for particle systems and biomolecules. However, these approaches have not been extended to amorphous materials (glasses), for which equilibrium sampling is notoriously slow. Because of their disordered structure, the invariances and geometrical constraints of amorphous materials differ from those of crystals and biomolecules, preventing the direct use of existing generative models. Here, we develop Boltzmann Generators tailored to amorphous materials by building the required equivariances directly into Riemannian stochastic interpolants. Our framework incorporates periodic boundary conditions and particle symmetries using equivariant graph neural networks. Numerical experiments demonstrate that enforcing physical symmetries significantly improves the accuracy of Boltzmann Generators, but also reveal an intrinsic limitation of the continuous-flow formulation: accumulated numerical errors during likelihood integration break time-reversibility, compromising exact thermodynamic reweighting. These results reveal a fundamental challenge for continuous-flow generative models in statistical mechanics and call for alternative approaches that preserve exact thermodynamic consistency.},
   pdf          = {https://arxiv.org/pdf/2512.16607},
   code         = {https://github.com/h2o64/learndiffeq},
