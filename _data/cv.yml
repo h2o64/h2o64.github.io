@@ -19,6 +19,8 @@ cv:
         end_date: present
         highlights:
           - Using ML-enhanced sampling techniques to solve scientific problems and improve Bayesian inference
+          - "Co-organized the [Emerging Directions in Probabilistic Modeling](https://edpmworkshop.github.io/) workshop at the Flatiron Institute in New York"
+          - "Reviewed at ICLR (as AC)/ICML (gold reviewer)/NeurIPS/TMLR but also for multiple journals (JMLR, JUQ, JCGS, ...)"
 
       - company: CMAP, École Polytechnique
         position: Research Assistant
@@ -73,6 +75,7 @@ cv:
           - "Visited [José Miguel Hernández-Lobato](https://jmhl.org/) at the University of Cambridge for 4 months"
           - "Co-organised the 2nd edition of the [Frontiers in Probabilistic Inference](https://fpineurips.framer.website/) workshop at NeurIPS 2025"
           - "Publications: 1 ICLR paper, 2 ICML papers (including 1 spotlight), 1 ICML workshop paper, 1 ICLR workshop paper"
+          - "Reviewed for all editions NeurIPS/ICLR/ICML between 2022 and 2025"
 
       - institution: École Polytechnique (IP Paris)
         location: Palaiseau, France
