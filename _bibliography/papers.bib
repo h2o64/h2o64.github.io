@@ -1,3 +1,17 @@
+@misc{wen2026errorcorrectedinferencetimescalingimperfect,
+  title        = {Error-Corrected Inference-Time Scaling for Imperfect Diffusion Models},
+  author       = {Zuokai Wen and Louis Grenioux and Weinan E and Jiequn Han},
+  year         = 2026,
+  url          = {https://arxiv.org/abs/2610.01933},
+  abbr         = {arXiv},
+  abstract     = {Inference-time scaling adapts pretrained diffusion models to new sampling tasks without additional training. Existing methods rely primarily on Monte Carlo sampling with more particles, yet are premised on the pretrained model being exact. In practice, data and training limitations make the model imperfect, and these methods inherit its error. More particles reduce Monte Carlo error but cannot remove the mismatch between the endpoint and the desired target or the error in tracking the prescribed probability path. We introduce the Energy-based Feynman-Kac Corrector (EBFKC), a framework for energy-based diffusion models that corrects these errors on the fly given a reference energy. We first derive Feynman-Kac dynamics that track a prescribed path exactly in the continuous-time population limit even when the model is imperfect, and approximate these dynamics using sequential Monte Carlo with variance-controlling guidance. To remove the endpoint mismatch, we use the pretrained energy as a surrogate along the diffusion path and progressively incorporate the discrepancy between the learned and target terminal energies. Experiments on Gaussian mixture models, particle systems, alanine dipeptide, and alanine tetrapeptide show that our method closely matches target distributions and molecular free-energy profiles under annealing and reward tilting, whereas standard inference-time scaling baselines retain substantial sampling errors.},
+  eprint       = {2610.01933},
+  archiveprefix = {arXiv},
+  primaryclass = {stat.ML},
+  pdf          = {https://arxiv.org/pdf/2610.01933},
+  selected     = {true},
+  bibtex_show  = {true}
+}
 @misc{grenioux2026bridgingstochasticflowmaps,
   title        = {Bridging Stochastic Flow Maps and Boltzmann Generators with Normalizing Flows},
   author       = {Louis Grenioux and RuiKang OuYang and Luhuan Wu},
