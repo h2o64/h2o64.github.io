@@ -8,7 +8,9 @@ scholar:
   group_by: none
   bibliography_list_tag: ul
   bibliography_class: papers
-  bibliography_template: '<i class="fa-regular fa-file-lines"></i> <a href="{{ entry.url | default: entry.pdf }}">{{ entry.title }}</a>'
+  bibliography_template: >-
+    <i class="fa-regular fa-file-lines"></i>
+    <a href="{{ entry.slug | default: entry.key | prepend: '/link/papers/' | append: '.html' | relative_url }}" target="_blank">{{ entry.title }}</a>
 _styles: >
   .publications ul.papers { list-style: none; padding-left: 0; margin-bottom: 0; }
   .publications ul.papers li { margin-bottom: 0; }
@@ -49,10 +51,10 @@ _styles: >
               {% bibliography --query {{ query }} %}
               <div class="links">
                 {% if talk.slides %}
-                  <a href="{{ talk.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+                  <a href="{{ talk.slug | prepend: '/link/slides/' | append: '.html' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
                 {% endif %}
                 {% if talk.video %}
-                  <a href="{{ talk.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+                  <a href="{{ talk.slug | prepend: '/link/videos/' | append: '.html' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
                 {% endif %}
               </div>
             </div>
