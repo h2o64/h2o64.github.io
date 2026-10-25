@@ -9,6 +9,7 @@
   archiveprefix = {arXiv},
   primaryclass = {stat.ML},
   pdf          = {https://arxiv.org/pdf/2610.01933},
+  slug         = {ebfkc},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -23,6 +24,7 @@
   archiveprefix = {arXiv},
   primaryclass = {stat.ML},
   pdf          = {https://arxiv.org/pdf/2609.31978},
+  slug         = {nf2m},
   selected     = {true},
   bibtex_show  = {true},
   slides       = {https://docs.google.com/presentation/d/1fhZf9CqGrx4POF2ijflCMcdZWdx5dmQnNeZIKt-SrSc/edit?usp=sharing}
@@ -37,6 +39,7 @@
   abstract     = {Sampling configurations at thermodynamic equilibrium is a central challenge in statistical physics. Boltzmann Generators (BGs) tackle it by combining a generative model with a Monte Carlo (MC) correction step to obtain asymptotically unbiased samples from an unnormalized target. Most current BGs use classic MC mechanisms such as importance sampling, which both require tractable likelihoods from the backbone model and scale poorly in high-dimensional, multi-modal targets. We study BGs built on annealed Monte Carlo (aMC), which is designed to overcome these limitations by bridging a simple reference to the target through a sequence of intermediate densities. Diffusion models (DMs) are powerful generative models and have already been incorporated into aMC-based recalibration schemes via the diffusion-induced density path, making them appealing backbones for aMC-BGs. We provide an empirical meta-analysis of DM-based aMC-BGs on controlled multi-modal Gaussian mixtures (varying mode separation, number of modes, and dimension), explicitly disentangling inference effects from learning effects by comparing (i) a perfectly learned DM and (ii) a DM trained from data. Even with a perfect DM, standard integrations using only first-order stochastic denoising kernels fail systematically, whereas second-order denoising kernels can substantially improve performance when covariance information is available. We further propose a deterministic aMC integration based on first-order transport maps derived from DMs, which outperforms the stochastic first-order variant at higher computational cost. Finally, in the learned-DM setting, all DM-aMC variants struggle to produce accurate BGs; we trace the main bottleneck to inaccurate DM log-density estimation.},
   pdf          = {https://openreview.net/pdf?id=la4FDaeIbw},
   code         = {https://github.com/h2o64/dabg},
+  slug         = {dabg},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -50,6 +53,7 @@
   abstract     = {Score-based generative models have recently achieved remarkable success. While they are usually parameterized by the score, an alternative way is to use a series of time-dependent energy-based models (EBMs), where the score is obtained from the negative input-gradient of the energy. Crucially, EBMs can be leveraged not only for generation, but also for tasks such as compositional sampling or building Boltzmann Generators via Monte Carlo methods. However, training EBMs remains challenging. Direct maximum likelihood is computationally prohibitive due to the need for nested sampling, while score matching, though efficient, suffers from mode blindness. To address these issues, we introduce the Diffusive Classification (DiffCLF) objective, a simple method that avoids blindness while remaining computationally efficient. DiffCLF reframes EBM learning as a supervised classification problem across noise levels, and can be seamlessly combined with standard score-based objectives. We validate the effectiveness of DiffCLF by comparing the estimated energies against ground truth in analytical Gaussian mixture cases, and by applying the trained models to tasks such as model composition and Boltzmann Generator sampling. Our results show that DiffCLF enables EBMs with higher fidelity and broader applicability than existing approaches.},
   pdf          = {https://arxiv.org/pdf/2601.21025},
   code         = {https://github.com/h2o64/diffclf},
+  slug         = {diffclf},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -66,6 +70,7 @@
   eprint       = {2512.16607},
   archiveprefix = {arXiv},
   primaryclass = {stat.ML},
+  slug         = {amorphous},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -82,6 +87,7 @@
   pdf          = {https://theses.hal.science/tel-05438658v1/file/152827_GRENIOUX_2025_archivage.pdf},
   hal_id       = {tel-05438658},
   hal_version  = {v1},
+  slug         = {thesis},
   selected     = {true},
   bibtex_show  = {true},
   slides       = {https://docs.google.com/presentation/d/1aYv113G9H7esYNCLmYd6CDpIVyJ4grw5uBSGOrQd2h8/edit?usp=sharing}
@@ -97,6 +103,7 @@
   pdf          = {https://openreview.net/pdf?id=d91E9RhVFU},
   code         = {https://github.com/h2o64/dabg},
   poster       = {poster_fpi.pdf},
+  slug         = {evaluation},
   selected     = {false},
   bibtex_show  = {true}
 }
@@ -112,6 +119,7 @@
   code         = {https://github.com/h2o64/sde_sampler_lrds},
   poster       = {poster_lrds.pdf},
   slides       = {https://docs.google.com/presentation/d/1lXt_NqLtH3atutZeZQgiBh_M68bYOwS4cHleMBga5o4/edit?usp=sharing},
+  slug         = {lrds},
   selected     = {false},
   bibtex_show  = {true}
 }
@@ -134,6 +142,7 @@
   award_name   = {Spotlight},
   poster       = {poster_slips.pdf},
   slides       = {https://docs.google.com/presentation/d/1r_WsHOwKWUG9MaWoFbLD-VAkZDu0pvOZPVy2FlD1kew/edit?usp=sharing},
+  slug         = {slips},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -146,6 +155,7 @@
   abstract     = {Energy-based models (EBMs) are versatile density estimation models that directly parameterize an unnormalized log density. Although very flexible, EBMs lack a specified normalization constant of the model, making the likelihood of the model computationally intractable. Several approximate samplers and variational inference techniques have been proposed to estimate the likelihood gradients for training. These techniques have shown promising results in generating samples, but little attention has been paid to the statistical accuracy of the estimated density, such as determining the relative importance of different classes in a dataset. In this work, we propose a new maximum likelihood training algorithm for EBMs that uses a different type of generative model, normalizing flows (NF), which have recently been proposed to facilitate sampling. Our method fits an NF to an EBM during training so that an NF-assisted sampling scheme provides an accurate gradient for the EBMs at all times, ultimately leading to a fast sampler for generating new data.},
   pdf          = {https://openreview.net/pdf?id=AwJ2NqxWlk},
   poster       = {poster_ebm_spigm2023.pdf},
+  slug         = {balanced},
   selected     = {false},
   bibtex_show  = {true}
 }
@@ -166,6 +176,7 @@
   pdf          = {https://proceedings.mlr.press/v202/grenioux23a/grenioux23a.pdf},
   code         = {https://github.com/h2o64/flow_mcmc},
   poster       = {poster_icml2023.pdf},
+  slug         = {transport},
   selected     = {false},
   bibtex_show  = {true}
 }

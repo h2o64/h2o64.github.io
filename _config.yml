@@ -413,6 +413,7 @@ filtered_bibtex_keywords:
     preview,
     selected,
     slides,
+    slug,
     supp,
     video,
     website,
